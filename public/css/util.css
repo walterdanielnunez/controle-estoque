@@ -1,0 +1,125 @@
+/*
+	Util 105
+*/
+body{
+    padding: 0;
+    margin: 0;
+    overflow-y: scroll;
+}
+.left{
+    text-align: left;
+}
+.center{
+    text-align: center;
+}
+.right{
+    text-align: right;
+}
+.none{
+    display: none;
+}
+.block{
+    display: block;
+}
+.inline-block{
+	display: inline-block;
+}
+.pointer{
+    cursor: pointer;
+}
+.max100{
+	max-width: 100px!important;
+}
+.max150{
+	max-width: 150px!important;
+}
+.max200{
+	max-width: 200px!important;
+}
+.max250{
+	max-width: 250px!important;
+}
+.max300{
+	max-width: 300px!important;
+}
+.max400{
+	max-width: 400px!important;
+}
+.max500{
+	max-width: 500px!important;
+}
+.max600{
+	max-width: 600px!important;
+}
+.max700{
+	max-width: 700px!important;
+}
+.max800{
+	max-width: 800px!important;
+}
+.max900{
+	max-width: 900px!important;
+}
+.max1000{
+	max-width: 1000px!important;
+}
+.max1100{
+	max-width: 1100px!important;
+}
+.max1200{
+	max-width: 1200px!important;
+}
+.max1300{
+	max-width: 1300px!important;
+}
+.max1400{
+	max-width: 1400px!important;
+}
+.min300{
+	min-width: 300px!important;
+}
+.min400{
+	min-width: 400px!important;
+}
+.min500{
+	min-width: 500px!important;
+}
+.min600{
+	min-width: 600p!important;
+}
+.bolder{
+	font-weight: bold;
+}
+.upper{
+	text-transform: uppercase;
+}
+.lower{
+	text-transform: lowercase;
+}
+.hidden{
+	visibility: hidden;
+}
+.small{
+	font-size: small;
+}
+.centered{
+	margin: 0 auto;
+}
+.top{
+	vertical-align: top;
+}
+.bottom{
+	vertical-align: bottom;
+}
+.fLeft{
+	float: left;
+}
+.fRight{
+	float: right;
+}
+.middle{
+	vertical-align: middle;
+}
+.clear{
+    clear: both;
+}

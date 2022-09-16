@@ -1,0 +1,103 @@
+body{
+    background: #f0f0f0;
+    color: #595959;
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu{
+    background: #3399ff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.menu a{
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 8px;
+}
+
+.menu a:hover{
+    text-decoration: underline;
+}
+
+.field{
+    text-align: left;
+    margin: 10px;
+    font-size: 15px;
+}
+
+.field input, .field select{
+    display: block;
+    width: 100%;
+    padding: 6px;
+    box-sizing: border-box;
+}
+
+.field input:read-only{
+    color: #999999;
+    cursor: default;
+}
+
+.tabelas{
+    border-collapse: collapse;
+    background: #ffffff;
+    margin: 0 auto;
+}
+
+.tabelas td, .tabelas th{
+    padding: 10px;
+}
+
+.tabelas a{
+    color: #0061a7;
+}
+
+form{
+    text-align: center;
+    background: #ffffff;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 320px;
+    max-width: 100%;
+    margin: 10px auto;
+}
+
+.bt {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border-radius:3px;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #154682;
+}
+.bt:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+
+.error-msg{
+    color: #ff8080;
+}
+
+.estoque_baixo{
+    color: #ff3333 !important;
+    font-weight: bold;
+}
+
+.erro{
+    background: #ff8080;
+    color: #ffffff;
+    padding: 10px;
+    margin: 20px auto;
+    box-sizing: border-box;
+    text-align: center;
+    width: 350px;
+    max-width: 100%;
+}
